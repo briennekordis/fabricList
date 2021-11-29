@@ -5,7 +5,7 @@ window.addEventListener('load', ()=> {
 });
 
 async function createFabricList(){
-    const response = await fetch('./fabrics.json');
+    const response = await fetch('./fabric.json');
     const json = await response.json();
     const fabrics = document.getElementById('fabrics');
 
